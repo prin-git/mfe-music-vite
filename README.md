@@ -1,6 +1,6 @@
-# MFE App example (React-Vite) 
+#  Microfrontend  App example (React-Vite) 
 
-This repo conatain 3 apps which togeher work as a MFE;
+This repo conatain 3 apps which togeher work as a  Microfrontend ;
 
 * `list-remote` One Remote app sharing a store and two components hearder, musiclist.
 *  `detail-remote` One Remote app  also acting as a host app to consuming the values from store. it act as a remote app to sharing a detail component.

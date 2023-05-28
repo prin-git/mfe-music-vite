@@ -35,5 +35,6 @@ This repo conatain 3 apps which togeher work as a  Microfrontend ;
  ## Open mfe-host-music, and run the following command
 * `npm i'
 * 'npm run dev'  app will run in any available port
+*  Now you can see the host app runing with all the compoents and state collected from other two apps
 
 Note: Its important to set Serve port strict for remote app,

@@ -1,0 +1,21 @@
+h3{
+    text-align: center;
+    font-family: 'tahoma';
+    font-weight: 400;
+}
+.musicWrap{
+
+    display: flex;
+    padding: 20px;
+    width:600px;
+    margin: 0 auto;
+   
+    
+}
+.musicWrap *:first-child{
+    flex-grow: 2;
+}
+.details{
+    display: flex;
+
+}

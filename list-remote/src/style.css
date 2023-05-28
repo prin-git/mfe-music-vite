@@ -1,0 +1,37 @@
+li{
+    list-style: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    font-family:  Tahoma;
+    font-size: 15px;
+}
+ul{
+    margin: 20px;
+    min-width: 200px;
+}
+
+header{
+    
+    width: 100%;
+    height: auto;
+    min-height: 46px;
+    background-image: url('./assets/girl.jpg'), url('./assets/pinkbg.jpg');
+    background-position: left bottom, left top;
+    background-repeat: no-repeat, repeat;
+    clear: both;
+    background-color: black;
+}
+.title{
+   font-family:'Segoe UI';
+   font-style: oblique;
+   margin-left: 100px;
+   font-size: 30px;
+   color: white;
+
+}
+ .active{
+    background-color:#990033;
+    color: #ffffff;
+} 

@@ -29,4 +29,4 @@ This repo conatain 3 apps which togeher work as a  Microfrontend ;
 * `npm i'
 * 'npm run dev'  app will run in any available port
 
-Note: its important to set Serve port strict for remote app,
+Note: Its important to set Serve port strict for remote app,

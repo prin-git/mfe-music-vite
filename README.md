@@ -1,7 +1,7 @@
 #  Microfrontend  App example (React-Vite) 
 
 ## Vesrions need the app to run without err
- * Node ^18.16.0 and above
+ * Node ^18.16.0 
  * react: ^18.2.0
  * vit": ^4.2.0
  * originjs/vite-plugin-federation: ^1.2.1

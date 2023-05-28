@@ -1,9 +1,12 @@
-# MFE app example (React-Vite) 
+# MFE App example (React-Vite) 
+
+This repo conatain 3 apps;
+
 * `list-remote` One Remote app sharing a store and two components hearder, musiclist.
 *  `detail-remote` One Remote app  also acting as a host app to consuming the values from store. it act as a remote app to sharing a detail component.
 *  `mfe-host-music` The main host app consuming components from both remote app nad store from list-remote.
 
-Use `git status` to list all new or modified files that haven't yet been committed.
+
 # To see the MFE working in Local
 
  ## Open list-remote, and run the following command

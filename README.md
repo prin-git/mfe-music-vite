@@ -1,5 +1,12 @@
 #  Microfrontend  App example (React-Vite) 
 
+## Vesrions need the app to run without err
+ * Node ^18.16.0 and above
+ * react: ^18.2.0
+ * vit": ^4.2.0
+ * originjs/vite-plugin-federation: ^1.2.1
+ * react-dom": ^18.2.0
+
 This repo conatain 3 apps which togeher work as a  Microfrontend ;
 
 * `list-remote` One Remote app sharing a store and two components hearder, musiclist.

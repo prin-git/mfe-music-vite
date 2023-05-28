@@ -17,7 +17,7 @@ This repo conatain 3 apps which togeher work as a MFE;
 * `npm run serve`  app will serve in `port 5012` (to which the host looking in to )
 
 
- ## Open detailt-remote, and run the following command
+ ## Open detail-remote, and run the following command
 * `npm i'
 * 'npm run dev'  app will run in `port 5001`
 #### following 2 steps need to do all the time if you need to see your changes in Host

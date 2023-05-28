@@ -1,18 +1,12 @@
-
 import MusicList from "./MusicList";
-import Header from './Header'
-
+import Header from "./Header";
 
 function App() {
-
-
   return (
-    <div >
-      <MusicList/>
-      <Header/>
-      </div >
-       
-    
+    <div>
+      <MusicList />
+      <Header />
+    </div>
   );
 }
 

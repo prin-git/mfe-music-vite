@@ -1,18 +1,10 @@
-
-
-import Detail from './Detail'
-
+import Detail from "./Detail";
 
 function App(props) {
-
-
   return (
-    <div >
-     
+    <div>
       <Detail />
-      </div >
-       
-    
+    </div>
   );
 }
 

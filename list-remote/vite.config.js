@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import federation from "@originjs/vite-plugin-federation";
 
 export default defineConfig({
-  base: "http://localhost:5012",
+  base: "http://mfe-remote-list.s3-website-us-east-1.amazonaws.com",
   plugins: [
     react(),
 

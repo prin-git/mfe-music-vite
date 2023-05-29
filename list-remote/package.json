@@ -7,7 +7,8 @@
     "dev": "vite --port 5002 --strictPort",
     "build": "vite build",
     "preview": "vite preview --port 5012 --strictPort",
-    "serve": "vite preview --port 5012 --strictPort"
+    "serve": "vite preview --port 5012 --strictPort",
+    "deploy": "aws s3 sync dist/ s3://mfe-remote-list"
   },
   "dependencies": {
     "jotai": "^2.0.3",
@@ -20,5 +21,6 @@
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "vite": "^4.2.0"
+
   }
 }

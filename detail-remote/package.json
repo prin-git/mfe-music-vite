@@ -7,7 +7,8 @@
     "dev": "vite --port 5001 --strictPort",
     "build": "vite build",
     "preview": "vite preview --port 5011 --strictPort",
-    "serve": "vite preview --port 5011 --strictPort"
+    "serve": "vite preview --port 5011 --strictPort",
+    "diploy":"aws s3 sync dist/ s3://mfe-detail-remote"
   },
   "dependencies": {
     "jotai": "^2.0.3",

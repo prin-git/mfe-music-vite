@@ -9,7 +9,7 @@ export default defineConfig({
       name: "remote-detail",
       filename: "remoteDetail.js",
       remotes: {
-        remoteComponents: "http://localhost:5012/assets/remoteEntry.js",
+        remoteComponents: "http://mfe-remote-list.s3-website-us-east-1.amazonaws.com/assets/remoteEntry.js",
       },
       exposes: {
         "./Detail": "./src/Detail",

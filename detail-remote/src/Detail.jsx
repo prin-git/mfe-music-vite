@@ -1,17 +1,17 @@
 import { useDetails } from "remoteComponents/store";
 
 const Detail = (props) => {
-  const [details] = useDetails();
+  const [detail] = useDetails();
 
   return (
     <div className="detail">
-      <img src={details.url} alt={details.song} className="picture" />
+      <img src={detail.url} alt={detail.song} className="picture" />
 
       <div>
-        Release:<span>{details.released}</span>
+        Release:<span>{detail.released}</span>
       </div>
       <div>
-        Writer:<span>{details.writer}</span>
+        Writer:<span>{detail.writer}</span>
       </div>
     </div>
   );

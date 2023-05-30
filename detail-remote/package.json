@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview --port 5011 --strictPort",
     "serve": "vite preview --port 5011 --strictPort",
-    "diploy":"aws s3 sync dist/ s3://mfe-detail-remote"
+    "diploy":"aws s3 sync dist/ s3://mfe-princy-2/detailPage"
   },
   "dependencies": {
     "jotai": "^2.0.3",

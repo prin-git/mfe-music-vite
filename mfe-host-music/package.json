@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "diploy":"aws s3 sync dist/ s3://princy-mfe-music-host"
+    "diploy":"aws s3 sync dist/ s3://mfe-princy-2"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -9,8 +9,8 @@ export default defineConfig({
     federation({
       name: "hostApp",
       remotes: {
-        remoteComponents: "http://mfe-remote-list.s3-website-us-east-1.amazonaws.com/assets/remoteEntry.js",
-        remoteDetail: "http://mfe-detail-remote.s3-website-us-east-1.amazonaws.com/assets/remoteDetail.js",
+        remoteComponents: "http://mfe-princy-2.s3-website-us-east-1.amazonaws.com/list/assets/remoteEntry.js",
+        remoteDetail: "http://mfe-princy-2.s3-website-us-east-1.amazonaws.com/detailPage/assets/remoteDetail.js",
       },
       shared: ["react", "react-dom"],
     }),
